@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #FFFFFF;
 }
 body nav {
     background-color: #FFFFFF ;
+    font-family: "Bitcount Single",serif;
 }
 ul {
     border-radius: 20px;
+}
+.cs-button {
+    border-radius: 20px;
+    margin-bottom: auto;
+    box-shadow: 0 2px 14px rgba(7, 22, 41, 0.6);
+}
+.heros {
+    background-color: #000001;
+    padding: 0px 50px; 
+}
+
+.hero-content {
+    background-image: url("../media/dark.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+h1 {
+    font-family: "Merriweather", serif;
+}
+
+p {
+    font-size: 25px;
 }
